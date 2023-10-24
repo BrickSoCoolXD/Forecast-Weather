@@ -63,16 +63,18 @@ crossorigin="anonymous">
 				<tr style = "background-color: #000000; color: #ffffff;">
 					<td id = "current_day" style = "background-color: #15ffaa; color: #150015">
 						${days[0]} (Today)
-					</td>
-					<td>Country</td>
-					<td>Country (ISO code)</td>
-					<td>Temperature (&#176;C)</td>
-					<td>Minimum temperature (&#176;C)</td>
-					<td>Maximum temperature (&#176;C)</td>
-					<td>Weather</td>
-					<td>Weather description</td>
-					<td>Pressure</td>
-					<td>Humidity</td>
+						<tr>
+							<td>${list.time}</td>
+							<td>${list.country}</td>
+							<td>${list.countryISOCode}</td>
+							<td>${list.temperature}</td>
+							<td>${list.tempMin}</td>
+							<td>${list.tempMax}</td>
+							<td>${list.weather}</td>
+							<td>${list.weatherDesc}</td>
+							<td>${list.pressure}</td>
+							<td>${list.humidity}</td>
+						</tr>
 				</tr>
 			</thead>
 			
